@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="nav_menu_items">
+    	<item>Find Partners</item>
+    	<item>Chat</item>
+   		<item>Animals</item>
+ 		<item>Profile</item>
+    	<item>Settings</item>
+        <item>Invite</item>
+    </string-array>       
+    
+   
+    <!-- HOME____Description -->
+    <string name="d_find_partners">Find the nearest Animals</string>
+    <string name="d_chat">Change messages with owners</string>
+    <string name="d_animals">Change the current Animal</string>
+    <string name="d_profile">Your basic information</string>
+    <string name="d_settings">Search and APP preferences</string>
+    <string name="d_default">Error, contact the programmer</string>
+    <string name="d_invite">Invite friends from Facebook, Gmail&#8230;</string>
+    
+</resources>

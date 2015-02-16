@@ -1,0 +1,226 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/login_form"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/container"
+        style="@style/LoginFormContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:isScrollContainer="true"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/imgvRegisterAnimal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:contentDescription="@string/example"
+            android:gravity="center"
+            android:src="@drawable/dog_footprint"
+            android:visibility="visible" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btnUploadPhoto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:minHeight="?android:attr/listPreferredItemHeight"
+                android:text="@string/btnUpload" />
+
+            <Button
+                android:id="@+id/btnTakePicture"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:minHeight="?android:attr/listPreferredItemHeight"
+                android:text="@string/btnPhoto" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btnAnimalMale"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:minHeight="?android:attr/listPreferredItemHeight"
+                android:text="@string/male"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btnAnimalFemale"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:minHeight="?android:attr/listPreferredItemHeight"
+                android:text="@string/female"
+                android:textSize="18sp" />
+        </LinearLayout>
+        
+        <EditText
+            android:id="@+id/petName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/prompt_animal_name"
+            android:inputType="textPersonName"
+            android:minHeight="?android:attr/listPreferredItemHeight" >
+
+            <requestFocus />
+        </EditText>
+                
+        <viewUtils.HintSpinner
+            android:id="@+id/spnFamily"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right|center_vertical"
+            android:minHeight="?android:attr/listPreferredItemHeight"
+            android:prompt="@string/what_kind"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/txtvAge"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:gravity="start|center_vertical"
+                android:minHeight="?android:attr/listPreferredItemHeight"
+                android:text="@string/age"
+                android:textSize="18sp" />
+            
+            <Button
+                android:id="@+id/btnDecreaseAge"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:minHeight="?android:attr/listPreferredItemHeight"
+                android:text="@string/minus"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txtvValueAge"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal|center_vertical"
+                android:minHeight="?android:attr/listPreferredItemHeight"
+                android:text="@string/zero"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btnIncreaseAge"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:minHeight="?android:attr/listPreferredItemHeight"
+                android:text="@string/plus"
+                android:textSize="18sp" />
+            
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/txtvWeight"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:gravity="start|center_vertical"
+                android:minHeight="?android:attr/listPreferredItemHeight"
+                android:text="@string/weight"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btnDecreaseWeight"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:minHeight="?android:attr/listPreferredItemHeight"
+                android:text="@string/minus"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txtvValueWeight"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal|center_vertical"
+                android:minHeight="?android:attr/listPreferredItemHeight"
+                android:text="@string/zero"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btnIncreaseWeight"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:minHeight="?android:attr/listPreferredItemHeight"
+                android:text="@string/plus"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <viewUtils.HintSpinner
+                android:id="@+id/spnColor1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:minHeight="?android:attr/listPreferredItemHeight"
+                android:prompt="@string/prompt_color1"
+                android:textAlignment="center" />
+
+            <viewUtils.HintSpinner
+                android:id="@+id/spnColor2"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:minHeight="?android:attr/listPreferredItemHeight"
+                android:prompt="@string/prompt_color2"
+                android:textAlignment="center" />
+
+            <viewUtils.HintSpinner
+                android:id="@+id/spnColor3"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:minHeight="?android:attr/listPreferredItemHeight"
+                android:prompt="@string/prompt_color3"
+                android:textAlignment="center" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/txtDescription"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:hint="@string/describe"
+            android:inputType="textMultiLine"
+            android:minHeight="?android:attr/listPreferredItemHeight" />
+    </LinearLayout>
+
+</ScrollView>

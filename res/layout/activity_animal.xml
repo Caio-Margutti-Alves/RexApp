@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    style="@style/LoginFormContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.main.rex.AnimalActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <Spinner
+        android:id="@+id/spnAnimais"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center" />
+
+    <ImageView
+        android:id="@+id/imgvAnimal"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_gravity="center"
+        android:layout_weight="3"
+        android:contentDescription="@string/example"
+        android:src="@drawable/dog_footprint"
+        android:visibility="visible" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btnUpload"
+            android:minHeight="?android:attr/listPreferredItemHeight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="@string/btnUpload" />
+
+        <Button
+            android:id="@+id/btnPhoto"
+            android:minHeight="?android:attr/listPreferredItemHeight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="@string/btnPhoto" />
+    </LinearLayout>
+
+</LinearLayout>

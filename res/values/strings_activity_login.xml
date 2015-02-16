@@ -1,0 +1,22 @@
+<resources>
+
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_login">Login</string>
+    <string name="prompt_password">Password</string>
+    <string name="sign_in"><b>Sign in</b> </string>
+    <string name="new_to_rex">New to Rex?</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="action_forgot_password">Recover lost password</string>
+    <string name="login_progress_signing_in">Signing in&#8230;</string>
+    <string name="error_invalid_email">This email is invalid</string>
+    <string name="error_invalid_first_name">Must not contain numbers or special characters</string>
+    <string name="error_invalid_last_name">Must not contain numbers or special characters</string>
+    <string name="error_invalid_login">Login must be at least 8 characters long</string>
+    <string name="error_invalid_password">Password must be at least 8 characters long</string>
+    <string name="error_invalid_repassword">The passwords are different</string>
+    <string name="error_incorrect_combination">Wrong combination of login and password</string>
+    <string name="error_field_required">This field is required</string>
+
+</resources>

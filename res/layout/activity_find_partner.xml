@@ -1,0 +1,136 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutview"
+    style="@style/LoginFormContainer"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#53bbf4"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:id="@+id/endereco"
+        android:text="@string/example" 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    
+    <TextView
+        android:id="@+id/lat_long"
+        android:text="@string/example" 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    
+    <Button
+        android:id="@+id/getAddress"
+        android:text="@string/example" 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    
+    <TextView
+        android:id="@+id/state"
+        android:text="@string/example" 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    
+    <TextView
+        android:id="@+id/status"
+        android:text="@string/example" 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    
+    <ProgressBar
+        android:id="@+id/barProgresso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:indeterminate="true"
+        android:visibility="gone" />
+
+    <LinearLayout
+        style="@style/LoginFormContainer"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/black_border"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/imgvAnimal"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_gravity="center"
+            android:layout_weight="9"
+            android:contentDescription="@string/example"
+            android:src="@drawable/pepe" />
+
+        <LinearLayout
+            style="@style/LoginFormContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/txtvName"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:gravity="start|center_vertical"
+                android:text="@string/animal_example" />
+
+            <ImageView
+                android:id="@+id/imgvDistance"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.5"
+                android:contentDescription="@string/example"
+                android:src="@drawable/ic_action_place" />
+
+            <TextView
+                android:id="@+id/txtvDistance"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="start|center_vertical"
+                android:text="@string/distance_example" />
+
+            <ImageView
+                android:id="@+id/imgvNumberLoves"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="0.5"
+                android:contentDescription="@string/example"
+                android:src="@drawable/ic_number_loves" />
+
+            <TextView
+                android:id="@+id/txtvNumberLoves"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="end|center_vertical"
+                android:text="@string/number_loves_example" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:orientation="horizontal" >
+
+            <ImageButton
+                android:id="@+id/btnRefuse"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:background="@android:color/white"
+                android:gravity="start|center_vertical"
+                android:src="@drawable/refuse" />
+
+            <ImageButton
+                android:id="@+id/btnLike"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="0.50"
+                android:background="@android:color/white"
+                android:src="@drawable/loved" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

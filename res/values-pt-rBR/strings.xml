@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="first_name">Caio</string>
+    <string name="last_name">Alves</string>
+    
+      <!-- Navigation -->    
+    <string name="header">Usuário</string>    
+        
+    <string name="clear"></string>
+    <string name="add">Adicionar</string>
+    <string name="delete">Excluir</string>
+    <string name="done">Concluído</string>
+    <string name="discard">Descartar</string>
+    <string name="search">Pesquisar</string>
+    <string name="update">atualizar</string>
+        
+    <string name="drawer_open">Abrir drawer navigation</string>
+    <string name="drawer_close">Navigation drawer Fechar</string>   
+
+    <string name="app_name">Rex</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Configurações</string>
+    <string name="action_search">Procurar</string>
+    <string name="action_edit">Editar</string>
+    <string name="action_new">Novo</string>
+
+    <!-- Examples -->
+    <string name="example_title">Funcionalidade de Exemplo</string>
+    <string name="example_description">Só um exemplo</string>
+
+    <!-- Facebook -->
+    <string name="app_id">286785121486893</string>
+    <string name="login_facebook">Conectar-se com Facebook</string>
+
+    <!-- Address format -->
+    <string name="address_output_string">%1$s %2$s %3$s</string>
+
+    <!-- Latitude, longitude format -->
+    <string name="latitude_longitude">%1$.8f, %2$.8f</string>
+
+    <!-- Mensagens de erro do GPS -->
+    <string name="connected">Cliente conectado</string>
+    <string name="connection_error_code_unknown">Erro de conexão desconhecido:  %1$d</string>
+    <string name="connection_failed">Conexão falhou</string>
+    <string name="disconnected">Cliente desconectado</string>
+    <string name="get_address">Pegar Endereço</string>
+    <string name="get_location">Pegar Localização</string>
+    <string name="illegal_argument_exception">        Illegal arguments: Latitude %1$.8f Longitude %2$.8f
+</string>
+    <string name="invalid_action">Ação de Intent inválida %1$s</string>
+    <string name="invalid_integer_id">Requisição de ID de inteiro invalida: %1$s</string>
+    <string name="IO_Exception_getFromLocation">IO Exception in Geocoder.getFromLocation()</string>
+    <string name="location_requested">Periodic updates requested</string>
+    <string name="location_updated">Location updated</string>
+    <string name="location_update_error">Location update failed</string>
+    <string name="location_update_error_detail">        Location update error. code %1$d message %2$s
+</string>
+    <string name="location_update_missing_update">        Location update error. No incoming location.
+</string>
+    <string name="location_updates_stopped">Periodic updates stopped</string>
+    <string name="log_new_location">New location: %1$s</string>
+    <string name="no_address_found">No address found for location</string>
+    <string name="no_connection">No connection: Cannot request location</string>
+    <string name="no_geocoder_available">Cannot get address. No geocoder available.</string>
+    <string name="no_location_available">Location not available</string>
+    <string name="resolved">Error resolved. Please re-try operation.</string>
+    <string name="no_resolution">Google Play services: unable to resolve connection error.</string>
+    <string name="periodic_update_stop">Stopping periodic updates</string>
+     <string name="play_services_available">Google Play services is available</string>
+    <string name="request_location_updates_in_progress">        Can\'t request location updates, previous request hasn\'t finished
+</string>
+    <string name="start_updates">Start Updates</string>
+    <string name="stop_updates">Stop Updates</string>
+    <string name="unknown">--Unknown--</string>
+    <string name="unknown_activity_request_code">        Received an unknown activity request code %1$d in onActivityResult.
+</string>
+
+    <!-- Animals -->
+    <string name="animal">Novo Animal</string>
+    <string name="title_activity_animal">Animal</string>
+    <string name="nothing"></string>
+
+    <!-- Camera -->
+
+    <string name="btnPhoto">Tirar Foto</string>
+    <string name="btnUpload">Carregar Foto</string>
+    <string name="btnVideo">Capturar Vídeo</string>
+    <string name="cannot">Não pode</string>
+    <string name="title_item_list">Items</string>
+    <string name="title_item_detail">Item Detail</string>
+    <string name="title_feature_list">Features</string>
+    <string name="title_feature_detail">Feature Detail</string>
+
+    <!-- Home -->
+    <string name="title_activity_home">Home</string>
+    <string name="find_partners">Achar Parceiros</string>
+    <string name="chat">Chat</string>
+    <string name="animals">Animais</string>
+    <string name="profile">Perfil</string>
+    <string name="settings">Configurações</string>
+
+    <!-- HOME____Description -->
+    <string name="d_find_partners">Acha os Animais mais próximos</string>
+    <string name="d_chat">Troque mensagens com os donos</string>
+    <string name="d_animals">Troque o animal sendo utilizado</string>
+    <string name="d_profile">Suas informações básicas</string>
+    <string name="d_settings">Busca e preferências do APP</string>
+    <string name="d_default">Erro, contate o programado</string>
+    <string name="d_invite">Convide amigos do Facebook, Gmail&#8230;</string>
+
+    <!-- Settings -->
+    <string name="title_activity_settings">Configurações</string>
+    <string name="example">Exemplo</string>
+    <string name="gender">Gênero:</string>
+    <string name="male">Masculino</string>
+    <string name="female">Feminino</string>
+    <string name="looking_for">Procurando por:</string>
+    <string name="search_radius">Raio de busca:</string>
+    <string name="age_between">Idade entre:</string>
+    <string name="invite">Convidar</string>
+    <string name="title_activity_profile">Perfil</string>
+    <string name="album_name">RexPhotos</string>
+
+    <!-- Invite -->
+    <string name="subject">Rexx App</string>
+    <string name="title_activity_invite">Compartilhe usando&#8230;</string>
+    <string name="invite_message">Ache um parceiro para seu animalzinho e entre em contato com aquele belo dono(a) dele ao mesmo tempo! 
+       Experimente Rex agora mesmo ;D </string>
+    <string name="title_activity_chat">Chat</string>
+
+    <!-- Register -->
+    <string name="register">Registrar</string>
+    <string name="prompt_first_name">Primeiro Nome</string>
+    <string name="prompt_last_name">Último Name</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_re_password">Redigite a Senha</string>
+
+    <!-- Chat -->
+    <string name="send">Enviar</string>
+    <string name="prompt_send">Yo, say something! =D</string>
+
+    <!-- Register Animal -->
+    <string name="prompt_animal_name">Como se chama seu animal?</string>
+    <string name="what_kind">Que tipo de animal ele é?</string>
+    <string name="describe">Descreva-o de maneira breve</string>
+    <string name="age">Quantos anos ele tem?</string>
+    <string name="weight">Quantos KG ele pesa?</string>
+    <string name="prompt_weight">Peso</string>
+    <string name="prompt_color1">1ra cor</string>
+    <string name="prompt_color2">2da cor</string>
+    <string name="prompt_color3">3ra cor</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="zero">0</string>
+    <string name="xxx">Yo, say something! =D</string>
+    <string-array name="animal_family_array">
+        <item>Gato</item>
+        <item>Cão</item>
+    </string-array>
+
+    <!-- Find Partners -->
+
+    <string name="animal_example">Pepê, 10</string>
+    <string name="number_loves_example">2014</string>
+    <string name="distance_example">1 km</string>
+
+    <!-- EXAMPLES CONTACTS -->
+    <string name="marco">Marco Salles</string>
+    <string name="antonio">Antonio Forte</string>
+    <string name="victoria">Victoria Risso</string>
+    <string name="ana">Ana Lemos</string>
+    <string name="virgilio">Virgilio Junior</string>
+    <string name="intasqui">Felipe Intasqui</string>
+    <string name="michelle">Michelle Galindo</string>
+    <string name="alemao">Bruno Terakado</string>
+    <string name="default_person">Default Person</string>
+    <string name="dog">Cão</string>
+    <string name="cat">Gato</string>
+    <string name="both">Cão e Gato</string>
+    <string name="title_activity_register">Registrar</string>
+    <string name="title_activity_register_animal">Registrar Animal</string>
+
+</resources>

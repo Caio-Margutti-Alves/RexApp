@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="nav_menu_items">
+    	<item>Achar Parceiros</item>
+    	<item>Conversas</item>
+   		<item>Animais</item>
+ 		<item>Perfil</item>
+    	<item>Configurações</item>
+        <item>Compartilhe</item>
+    </string-array>       
+</resources>

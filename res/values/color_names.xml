@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="colors_array">
+        <item>Amaranth</item>
+        <item>Amber</item>
+        <item>Amethyst</item>
+        <item>Apricot</item>
+        <item>Aquamarine</item>
+        <item>Azure</item>
+        <item>Baby blue</item>
+        <item>Beige</item>
+        <item>Black</item>
+        <item>Blue</item>
+        <item>Blue-green</item>
+        <item>Blue-violet</item>
+        <item>Blush</item>
+        <item>Bronze</item>
+        <item>Brown</item>
+        <item>Burgundy</item>
+        <item>Byzantium</item>
+        <item>Carmine</item>
+        <item>Cerise</item>
+        <item>Cerulean</item>
+        <item>Champagne</item>
+        <item>Chartreuse green</item>
+        <item>Chocolate</item>
+        <item>Cobalt blue</item>
+        <item>Coffee</item>
+        <item>Copper</item>
+        <item>Coral</item>
+        <item>Crimson</item>
+        <item>Cyan</item>
+        <item>Desert sand</item>
+        <item>Electric blue</item>
+        <item>Emerald</item>
+        <item>Erin</item>
+        <item>Gold</item>
+        <item>Gray</item>
+        <item>Green</item>
+        <item>Harlequin</item>
+        <item>Indigo</item>
+        <item>Ivory</item>
+        <item>Jade</item>
+        <item>Jungle green</item>
+        <item>Lavender</item>
+        <item>Lemon</item>
+        <item>Lilac</item>
+        <item>Lime</item>
+        <item>Magenta</item>
+        <item>Magenta rose</item>
+        <item>Maroon</item>
+        <item>Mauve</item>
+        <item>Navy blue</item>
+        <item>Ocher</item>
+        <item>Olive</item>
+        <item>Orange</item>
+        <item>Orange-red</item>
+        <item>Orchid</item>
+        <item>Peach</item>
+        <item>Pear</item>
+        <item>Periwinkle</item>
+        <item>Persian blue</item>
+        <item>Pink</item>
+        <item>Plum</item>
+        <item>Prussian blue</item>
+        <item>Puce</item>
+        <item>Purple</item>
+        <item>Raspberry</item>
+        <item>Red</item>
+        <item>Red-violet</item>
+        <item>Rose</item>
+        <item>Ruby</item>
+        <item>Salmon</item>
+        <item>Sangria</item>
+        <item>Sapphire</item>
+        <item>Scarlet</item>
+        <item>Silver</item>
+        <item>Slate gray</item>
+        <item>Spring bud</item>
+        <item>Spring green</item>
+        <item>Tan</item>
+        <item>Taupe</item>
+        <item>Teal</item>
+        <item>Turquoise</item>
+        <item>Violet</item>
+        <item>Viridian</item>
+        <item>White</item>
+        <item>Yankees Blue</item>
+        <item>Yellow</item>
+    </string-array>
+</resources>

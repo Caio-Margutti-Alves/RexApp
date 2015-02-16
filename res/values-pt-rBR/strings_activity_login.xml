@@ -1,0 +1,22 @@
+<resources>
+
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_login">Login</string>
+    <string name="prompt_password">Senha</string>
+    <string name="sign_in"><b>Conectar-se</b> </string>
+    <string name="new_to_rex">Novo ao Rex?</string>
+    <string name="action_sign_in_short">Conectar-se</string>
+    <string name="action_forgot_password">Recover lost password</string>
+    <string name="login_progress_signing_in">Signing in&#8230;</string>
+    <string name="error_invalid_email">Esse email é invalido</string>
+    <string name="error_invalid_first_name">Não pode conter números ou caracteres especiais</string>
+    <string name="error_invalid_last_name">Não pode conter números ou caracteres especiais</string>
+    <string name="error_invalid_login">Login deve ter no min. 8 caracteres</string>
+    <string name="error_invalid_password">Senha deve ter no min. 8 caracteres</string>
+    <string name="error_invalid_repassword">As senhas não correspondem</string>
+    <string name="error_incorrect_combination">Combinação errada de Login e Senha</string>
+    <string name="error_field_required">Este campo é obrigatório!</string>
+
+</resources>
